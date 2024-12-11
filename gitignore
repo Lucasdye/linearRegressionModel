@@ -1,4 +1,4 @@
-*/__pychache__
+srcs/*/__pychache__
 *.pyc
 stats/
 *.png
