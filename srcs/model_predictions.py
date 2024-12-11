@@ -1,7 +1,7 @@
-import sys as system
+import linear_regression.linear_regression as ln
+import linear_regression.params as params
+import parsing.parsing as pars
 import numpy as np
-from linear_regression import linear_regression as ln
-from parsing import parsing as pars
 import signal
 
 def signal_handler(signum, frame):
@@ -30,9 +30,9 @@ def waiting_for_input(func):
 
 def main():
     """
-    Summary:
-    Predicts a value of any given mileage in km with a linear regression
-    model.
+    Predicts and outputs in the terminal a value from the input x.
+    Returns:
+		Returns 0 if success 1 if fail.
     """
     try:
         # Basic signal handling
@@ -56,8 +56,10 @@ def main():
         # Result
         res = int(ln.model(X, theta)[0])
         print(f"The model's prediction for x = {input} is {res}")
+        return 0
     except Exception as e:
         print(type(e).__name__ + ":", e)
+        return 1
 
 if __name__ == "__main__":
     main()
