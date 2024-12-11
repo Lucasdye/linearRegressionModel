@@ -56,7 +56,7 @@ def main():
 
         # Result
         res = int(ln.model(X, theta)[0])
-        print(f"The model's prediction for x = {input} is {res}$")
+        print(f"The model's prediction for x = {input} is {res}")
     except Exception as e:
         print(type(e).__name__ + ":", e)
 
