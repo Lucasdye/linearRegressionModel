@@ -5,7 +5,7 @@ import numpy 								as np
 
 def main():
     """
-    This is the training function from 
+    This is the main script that processes the model's training.
     """
     try:
         df = ln.retrieve_dataset()
