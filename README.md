@@ -5,7 +5,7 @@
 This project offers you a linear regression model in python, a great statistical model for predictions.
 
 ## What's the use ?
-* Overoming a lacking dataset by completing it.
+* Overcoming a lacking dataset by completing it.
 * Predicting data out of our range of time.
  
 ## How does it work ?
