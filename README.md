@@ -38,7 +38,7 @@ pip install -r requierements.txt
   python3 model_prediction.py
   ```
 ## Important Information
-This is a supervised training model ! You'll have to play with the learning rate and epoch values for the model get the right understanding of the dataset.
+This is a supervised training model ! You'll have to play with the learning rate and epoch values for the model to get the right understanding of the dataset.
 
 
 
