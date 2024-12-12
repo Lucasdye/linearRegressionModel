@@ -5,19 +5,25 @@ import numpy as np
 import signal
 
 def signal_handler(signum, frame):
-    print(f"\nSignal {signum} received")
+    """
+    Handles the input signals, specifies the where in the code it was received
+    and exits 0 the program.
+    Arg:
+        signum (int): signal code
+        frame (frame object): frame from which the signal was caught
+    """
+    print(f"\nSignal {signum} received at line {frame.f_lineno} in {frame.f_code.co_name}()")
     exit(0)
 
 def waiting_for_input(func):
     """
-    Summary:
-        Blocks the program til the func returns False.
+    Blocks the program til the func returns False.
     Returns:
         Returns the return value by func.
     """
     str = ""
     ret = False
-    
+
     try:
         while ret is False:
             str = input("enter value: ")
@@ -30,9 +36,9 @@ def waiting_for_input(func):
 
 def main():
     """
-    Predicts and outputs in the terminal a value from the input x.
+    Outputs the predicted value from the input x.
     Returns:
-		Returns 0 if success 1 if fail.
+	0 if success 1 if fail.
     """
     try:
         # Basic signal handling

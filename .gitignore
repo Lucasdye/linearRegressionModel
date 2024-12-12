@@ -1,0 +1,4 @@
+**/__pycaches__
+*.pyc
+*.pgn
+stats/

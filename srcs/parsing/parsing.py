@@ -2,8 +2,10 @@
 def is_int_or_float(str):
     """
     Summary: Checks if the string is a float or an int.
-    If true, returns True and the concerned type found.
-    Otherwie returns False.
+    Returns:
+    A dictionary with 'str' and the type in string format
+    if 'str' satisfies the proprieties of a float or 
+    an int, otherwie returns False.
     """
     if str == "":
         return False
@@ -22,4 +24,3 @@ def is_int_or_float(str):
         return {"nb": str, "type": "float"}
     else:
         return {"nb": str, "type": "int"}
-		

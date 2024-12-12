@@ -4,7 +4,7 @@ from matplotlib import pyplot as plt
 import os
 
 def mk_statsdir():
-    # creating stats dir 
+    # creating stats dir
 	current_dir = os.getcwd()
 	parent_dir = current_dir[:current_dir.rfind("/")]
 	new_dir = parent_dir + "/stats"
@@ -15,7 +15,7 @@ def plot_dataset(x, y):
     plt.scatter(x, y)
     plt.xlabel(params.x_label)
     plt.ylabel(params.y_label)
-    plt.savefig(fname=params.stats_path + "data")
+    plt.savefig(fname=params.stats_path + "scatter_dataset")
     plt.clf()
 
 def plot_predictions(x, y, predictions):
@@ -24,7 +24,7 @@ def plot_predictions(x, y, predictions):
 	plt.xlabel(params.x_label)
 	plt.ylabel(params.y_label)
 	plt.plot(x, predictions)
-	plt.savefig(fname=params.stats_path + "linear_regression")
+	plt.savefig(fname=params.stats_path + "plot_linear_regression")
 	plt.clf()
 
 def	plot_cost_func(x, y):
@@ -32,5 +32,5 @@ def	plot_cost_func(x, y):
 	plt.plot(x, y)
 	plt.xlabel("epochs")
 	plt.ylabel("cost")
-	plt.savefig(fname=params.stats_path + "cost_function_res")
+	plt.savefig(fname=params.stats_path + "plot_cost_function_res")
 	plt.clf()
