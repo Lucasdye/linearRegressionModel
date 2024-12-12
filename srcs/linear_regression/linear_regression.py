@@ -1,11 +1,7 @@
 # Modules
-import sys
 from	linear_regression.params import params
-# import  linear_regression.vizualisation as vz
 import 	numpy	as np
 import	pandas	as pd
-import	numpy	as np
-import	matplotlib.pyplot as plt
 
 def algo_precision(pred, y):
 	"""
