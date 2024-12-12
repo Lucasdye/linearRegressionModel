@@ -12,7 +12,7 @@ In other words, the model doesn't "memorize" but "generalize" the data it has le
 ## Usage case
 * Predict the price of a car based on its mileage
 * Predict the height of a specfic plant based on its age
-* Predict the cancer cell count of a patient based on the timeframe of cancer
+* Predict the cancer cell count of a patient based on the timeframe of the cancer
 
 
 
