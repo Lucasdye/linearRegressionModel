@@ -1,3 +1,6 @@
+
+   ![linear_regression_logo](https://github.com/user-attachments/assets/dffeb339-2f72-4f6a-8013-42e03ac07b5a)
+
 # linear_regression_model
 This project offers you a linear regression model in python, a great statistical model for predictions.
 
