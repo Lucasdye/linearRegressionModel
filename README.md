@@ -10,7 +10,7 @@ This project offers you a linear regression model in python, a great statistical
  
 ## How does it work ?
 * The model is trained to recognize the logical progression of a dataset and therefore giving predictions on data it has never came accross.
-In other words, the model doesn't "memorize" but "generalize" the data it has learnt.
+In other words, the model doesn't "memorize" but "generalize" the dataset it has learnt.
 
 ## Usage case
 * Predict the price of a car based on its mileage.
