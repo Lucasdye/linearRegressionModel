@@ -1,4 +1,4 @@
-# simple_linear_regression_model
+# linear_regression_model
 This project offers you a linear regression model in python, a great statistical model for predictions.
 
 ## What's the use ?
