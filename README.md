@@ -9,7 +9,7 @@ This project offers you a linear regression model in python, a great statistical
 * Predicting data out of our range of time.
  
 ## How does it work ?
-* The model is trained to recognize the logical progression of a dataset and therefore giving predictions on data it has never came accross.
+* The model is trained to recognize the logical progression of a dataset and therefore is able to give predictions on data it has never came accross.
 In other words, the model doesn't "memorize" but "generalize" the dataset it has learnt.
 
 ## Usage case
